@@ -11,6 +11,7 @@ uncomment the call for the testSum() function below and check the console to see
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
+    console.log('hello from problem one, just for test');
     var total = a + b;
     var arr = [ total , 'The sum of ' + a + ' and ' + b + ' is ' + total + '.']; 
     console.log(arr);
